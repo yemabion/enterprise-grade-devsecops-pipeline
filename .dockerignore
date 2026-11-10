@@ -1,0 +1,43 @@
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Documentation and screenshots
+docs/
+
+# Local development files
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
