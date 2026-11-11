@@ -49,8 +49,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-
-      - name: Diagnose GitHub OIDC claims
         shell: bash
         run: |
           TOKEN=$(curl -sS \
